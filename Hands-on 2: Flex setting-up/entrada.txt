@@ -1,0 +1,3 @@
+Hands-on 2: Flex setting-up
+Compiladores 2026B, CUCEI
+Flex genera un analizador lexico en C a partir de 3 secciones.
