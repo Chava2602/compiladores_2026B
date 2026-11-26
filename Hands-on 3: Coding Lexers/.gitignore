@@ -1,0 +1,4 @@
+lexer_*
+lex_*.yy.c
+lex-*.c
+compiladores/
