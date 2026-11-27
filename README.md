@@ -21,7 +21,7 @@ código fuente ──► Análisis léxico ──► Análisis sintáctico ─�
 | 2 | [Flex setting-up](#hands-on-2-flex-setting-up) | Instalación y verificación del entorno | Flex, GCC |
 | 3 | [Coding Lexers](#hands-on-3-coding-lexers) | 6 versiones de un analizador léxico | Flex, GCC |
 | 4 | [Coding Parsers](#hands-on-4-coding-parsers) | 4 versiones de un analizador sintáctico | Bison, Flex |
-| 5 | [SlimC Analyzer](#hands-on-5-actividad-integradora-slimc-analyzer) | Léxico + sintáctico + semántico para un subconjunto de C | Bison, Flex |
+| 5 | [SlimC Compiler](#hands-on-5-slimc-compiler-actividad-integradora) | Léxico + sintáctico + semántico para un subconjunto de C | Bison, Flex |
 
 ## Entorno
 
@@ -252,9 +252,9 @@ Error sintactico en renglon 7, columna 1.
 
 ---
 
-## Hands-on 5: Actividad integradora (SlimC Analyzer)
+## Hands-on 5: SlimC Compiler (actividad integradora)
 
-📁 [`proyecto-final-slimc/`](proyecto-final-slimc)
+📁 [`SlimC Compiler/`](<SlimC Compiler>)
 
 **Objetivo:** extender el analizador semántico visto en clase hasta obtener el *front-end* completo
 (léxico, sintáctico y semántico) de **SlimC**, un subconjunto de C.
@@ -288,7 +288,7 @@ Error sintactico en renglon 7, columna 1.
 **Compilar y ejecutar:**
 
 ```bash
-cd proyecto-final-slimc
+cd "SlimC Compiler"
 make
 ./slimc correcto.c
 ./slimc errores.c

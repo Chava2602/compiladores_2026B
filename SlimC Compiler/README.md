@@ -1,4 +1,4 @@
-# Proyecto final: SlimC Analyzer
+# Hands-on 5: SlimC Compiler
 
 Front-end ligero (análisis léxico, sintáctico y semántico) para un subconjunto de C, hecho con
 **Flex** y **Bison**. Extiende el analizador `semantic-analysis/advance` que se vio en clase.
